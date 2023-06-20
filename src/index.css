@@ -49,6 +49,15 @@ h1 {
 
 }
 
+
+.todo-list {
+  /* background-color: blue; */
+  display: block;
+  box-sizing: border-box;
+  height: 200px;
+  
+}
+
 .hello {
   display: flex;
   gap: 50px;
