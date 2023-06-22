@@ -1,4 +1,5 @@
 import {  useState  } from 'react'
+import { Link } from 'react-router-dom';
 
 function TodoList() {
     const [newTodo, setNewTodo] = useState<string>('')
@@ -51,6 +52,7 @@ function TodoList() {
           </li>
         ))}
        </ul>
+       <Link to="/Register">Back</Link>
 
     </div>
   </div>
