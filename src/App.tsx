@@ -1,9 +1,12 @@
-import { BrowserRouter as Router, Route, Link, Routes, Navigate} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import TodoList from './pages/TodoList';
 import Welcome from './pages/Welcome';
 import Register from './pages/Register';
 
+
 function App() {
+
+
   return (
   <div>
     <Routes>
